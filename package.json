@@ -1,0 +1,26 @@
+{
+  "name": "cmd-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --out-path ./build --targets node16-win-x64",
+    "start": "node src/index.js",
+    "start-build": "./build/cmd-monitor.exe"
+  },
+  "bin": "./src/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^5.5.1"
+  },
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.1.0",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "node-storage": "^0.0.9",
+    "nodemailer": "^6.7.2"
+  }
+}

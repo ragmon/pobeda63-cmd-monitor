@@ -1,0 +1,16 @@
+{
+  "recipients": [
+    "recipient@example.com"
+  ],
+  "monitors": [
+    {
+      "url": "https://москва.победа-63.рф/catalog/instrument/elektroinstrument/?q=60&s=new&c=5&cg=85&a=0&min=2501&max=3490&p_state[]=1&p_state[]=2&p_state[]=3&p_state[]=4&b[]=260&b[]=258&b[]=1226&b[]=681&b[]=761&b[]=2158&b[]=672&b[]=1784&",
+      "name": "Москва инструменты 2501-3490руб., все"
+    }
+  ],
+  "checking_timeout": 5,
+  "smtp": {
+    "user": "",
+    "password": ""
+  }
+}
